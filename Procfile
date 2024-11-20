@@ -1,1 +1,2 @@
-web: npm start
+web: json-server --watch db.json --port $PORT
+
